@@ -1,38 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Welcome to my portfolio 👋</h1>
+
+<br>
+<h3>
+Welcome to my software developer portfolio template built with Next.js and Bootstrap, which helps you showcase your work and skills as a software developer. With this portfolio, you'll be able to impress potential employers or clients with your work and expertise.
+</h3>
+<br>
+
+<p align="center">
+  <kbd>
+    <img src="https://user-images.githubusercontent.com/61941978/218782582-2109dfb4-3625-42f7-8857-365c538e4319.png"></img>
+  </kbd>
+</p>
+
+## Demo
+
+To view a live demo, click here: https://brendanglancy.software/
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running, follow these simple example steps.
+
+### Prerequisites
+
+You'll need the following software installed on your computer:
+
+- Git
+- Node.js (which comes with npm)
+
+## How To Use
+
+From your command line, clone and run developer-portolio:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+# Clone this repository
+$ git clone https://github.com/BrendanGlancy/dev-port.git
+
+# Go into the repository
+$ cd developer-portfolio
+
+# Install dependencies
+$ yarn
+
+#Start's development server
+$ yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Linking Portfolio to Github
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+You can link your portfolio to your Github account by changing the githubUserName in `portfolio.js` file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```javascript
+  //  portfolio.js
+  githubUserName: 'YOUR GITHUB USERNAME HERE',
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+#### Using Emojis
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` function and pass the text you need as an argument. This would help in keeping emojis compatible across different browsers and platforms.
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+-   [Next.js](https://nextjs.org/)
+-   [axios](https://www.npmjs.com/package/axios)
+-   [reactstrap](https://reactstrap.github.io/)
+-   [react-reveal](https://www.react-reveal.com/)
+-   [react-lottie](https://www.npmjs.com/package/react-lottie)
+-   [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
+-   [react-headroom](https://github.com/KyleAMathews/react-headroom)
+-   [color-thief](https://github.com/lokesh/color-thief)
+-   [emailjs](https://www.emailjs.com/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Illustrations
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+-   [Lottie File Source](https://lottiefiles.com)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Please don't forget to give my repository a star! ⭐️
